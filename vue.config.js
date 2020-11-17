@@ -8,6 +8,7 @@ function resolve(dir) {
 const port = 7101;
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'development' ? '/' : '/trust-vue3-ser/',
   outputDir: 'dist',
   assetsDir: 'static',
   filenameHashing: true,

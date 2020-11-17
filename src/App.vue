@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="subapp">
     <div id="nav">
       <router-link to="/">Home</router-link>|
       <router-link to="/trust-other/about">About</router-link>
@@ -9,7 +9,7 @@
 </template>
 
 <style lang="css">
-#app {
+#subapp {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
